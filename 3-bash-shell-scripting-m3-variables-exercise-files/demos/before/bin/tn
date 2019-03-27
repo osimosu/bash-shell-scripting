@@ -1,0 +1,7 @@
+#!/bin/bash
+ 
+# Simple note-taking script
+# Author: reindert
+
+echo $(date): $* >> ~/notes.txt
+echo Note saved: $*
